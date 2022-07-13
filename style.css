@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&family=Righteous&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabecalho-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px 0px;
+}
+
+.cabecalho-principal-img {
+  width: 80px;
+  border-radius: 40px;
+}
+
+.cabecalho-principal-nav {
+  display: flex;
+  gap: 26px;
+}
+
+.cabeçalho-ref {
+  font-family: 'righteous', sans-serif;
+  color:aliceblue;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.corpo-principal {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #FFF2EF;
+}
+
+.corpo-principal-sec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 24px;
+}
+
+.corpo-principal-div {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+
+.corpo-principal-titulo {
+  font-family: 'righteous', sans-serif;
+  color:aliceblue;
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.corpo-principal-subtitulo {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFF2EF;
+}
+
+.corpo-principal-button {
+  background-color: red;
+  width: 200px;
+  height: 44px;
+  border-radius: 10px;
+  font-family: 'righteous', sans-serif;
+  font-size: 19px;
+  color: #FFF2EF;
+  border-color: red;
+}
+
+.corpo-principal-button:hover {
+  background-color: rgba(165, 42, 42, 1);
+  border-color: rgba(165, 42, 42, 1);
+}
+
+.corpo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.corpo-secundario-subtitulo {
+  border-top: 0.9px solid #FFF2EF;
+  padding-top: 48px;
+  font-family: 'righteous', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  color: #FFF2EF;
+  margin-bottom: 16px;
+}
+
+.corpo-secundario-texto {
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  color: #FFF2EF;  
+}
+
+.rodape-principal {
+  border-top: 0.4px solid #FFF2EF;
+  padding: 32px;
+}
+
+.rodape-principal-img {
+  height: 130px;
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+}
